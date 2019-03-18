@@ -38,3 +38,8 @@
     background-image: linear-gradient(to top right, #36205a, #971797);
     transform: scale(1.1) perspective(1px);
 }
+
+#about-me {
+    height: 100vh;
+    width: 100vw;
+}
