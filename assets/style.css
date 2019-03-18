@@ -41,7 +41,7 @@
 
 #about-me {
     /* background-image: url("./images/123blue-blur-color-932638\ \(1\).jpg"); */
-    background-image: linear-gradient(to bottom right, #050407 50%, #771e77 100%);
+    background-image: linear-gradient(to bottom, #050407 50%, #771e77 100%);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -49,8 +49,8 @@
     /* color: rgb(231, 120, 153); */
     color: #fff;
     /* background-attachment: fixed; */
-    height: 100vh;
-    width: 100vw;
+    /* height: 100vh;
+    width: 100vw; */
 }
 
 .project-card {
