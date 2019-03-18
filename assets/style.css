@@ -3,7 +3,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     height: 100vh;
     width: 100vw;
 }
@@ -40,6 +40,21 @@
 }
 
 #about-me {
+    /* background-image: url("./images/123blue-blur-color-932638\ \(1\).jpg"); */
+    background-image: linear-gradient(to bottom right, #050407 50%, #771e77 100%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Cagliostro', sans-serif;
+    /* color: rgb(231, 120, 153); */
+    color: #fff;
+    /* background-attachment: fixed; */
     height: 100vh;
     width: 100vw;
+}
+
+.project-card {
+    width: 50%;
+    color: #050407;
+    margin: 0 auto;
 }
