@@ -41,7 +41,8 @@
 
 #about-me {
     /* background-image: url("./images/123blue-blur-color-932638\ \(1\).jpg"); */
-    background-image: linear-gradient(to bottom, #050407 50%, #771e77 100%);
+    /* background-image: linear-gradient(to bottom, #0a0809 50%, #cc356a 100%); */
+    background-image: linear-gradient(to bottom, #0a0809, #291522, #451c3a, #622256, #7e2975, #8f2b80, #a02e8b, #b22f96, #bc2d8b, #c32d7f, #c83075, #cc356a);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
