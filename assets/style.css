@@ -58,4 +58,14 @@
     width: 50%;
     color: #050407;
     margin: 0 auto;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(249,172,251,1) 0%, rgba(180,68,244,1) 90% );
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: #fff;
+    text-decoration: none;
 }
