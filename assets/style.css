@@ -42,11 +42,12 @@
 #about-me {
     /* background-image: url("./images/123blue-blur-color-932638\ \(1\).jpg"); */
     /* background-image: linear-gradient(to bottom, #0a0809 50%, #cc356a 100%); */
-    background-image: linear-gradient(to bottom, #0a0809, #291522, #451c3a, #622256, #7e2975, #8f2b80, #a02e8b, #b22f96, #bc2d8b, #c32d7f, #c83075, #cc356a);
+    background-image: linear-gradient(to bottom, #0a0809, #291522, #451c3a, #55194a, #571c51, #611956, #5e1751, #4b163f, #331127, #351125, #200914, #080305);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    font-family: 'Cagliostro', sans-serif;
+    /* font-family: 'Cagliostro', sans-serif; */
+    font-family: 'Nanum Gothic', sans-serif;
     /* color: rgb(231, 120, 153); */
     color: #fff;
     /* background-attachment: fixed; */
@@ -55,10 +56,11 @@
 }
 
 .project-card {
-    width: 50%;
+    width: 98%;
+    
     color: #050407;
     margin: 0 auto;
-    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(249,172,251,1) 0%, rgba(180,68,244,1) 90% );
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgb(21, 177, 169) 0%, rgb(116, 98, 218) 90% );
 }
 
 a {
@@ -69,3 +71,5 @@ a:hover {
     color: #fff;
     text-decoration: none;
 }
+
+/* media queries to create responsive font sizing */
