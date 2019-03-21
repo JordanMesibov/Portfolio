@@ -61,6 +61,8 @@
     color: #050407;
     margin: 0 auto;
     background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgb(21, 177, 169) 0%, rgb(116, 98, 218) 90% );
+
+    /* box-shadow: 0 10px 20px rgba(31, 25, 25, 0.19), 0 6px 6px rgba(51, 41, 41, 0.23); */
 }
 
 a {
