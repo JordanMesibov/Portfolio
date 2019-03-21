@@ -99,4 +99,8 @@ a:hover {
     p {
         font-size: 12px;
     }
+
+    #job-title {
+        font-size: 14px;
+    }
 }
