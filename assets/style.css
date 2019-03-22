@@ -75,8 +75,34 @@ a:hover {
     text-decoration: none;
 }
 
+#profile-pic {
+    max-height: 500px;
+    margin-top: 25px;
+    border-style: solid;
+    border-radius: 3px;
+}
 
+.information {
+    border-style: solid;
+    border-radius: 3px;
+    padding-top: 5px;
+}
 
+.modal-content {
+    background-image: linear-gradient(to top right, #36205a, #971797);
+}
+
+#phone-number {
+    font-size: 25px;
+}
+
+/* .email-card {
+    color: black;
+}
+
+.email-form {
+    height: 100px;
+} */
 /*-----------------------------------------------*/
 /*-----------------------------------------------*/
 /*-----------------------------------------------*/
@@ -93,7 +119,7 @@ a:hover {
     }
 
     h5 {
-        font-size: 15px;
+        font-size: 11px;
     }
 
     p {
@@ -102,5 +128,13 @@ a:hover {
 
     #job-title {
         font-size: 14px;
+    }
+
+    #profile-pic {
+        max-height: 250px;
+    }
+
+    #phone-number {
+        font-size: 18px;
     }
 }
