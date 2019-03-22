@@ -16,10 +16,7 @@
       href="https://fonts.googleapis.com/css?family=Cagliostro"
       rel="stylesheet"
     />
-    <link
-      href="https://fonts.googleapis.com/css?family=Nanum+Gothic"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css?family=ZCOOL+XiaoWei" rel="stylesheet">
     <link rel="stylesheet" href="assets/style.css" />
     <title>Jordan Mesibov</title>
   </head>
@@ -46,7 +43,7 @@
     <div id="about-me" class="container-fluid">
       <div class="row pt-4 container-fluid ml-0">
         <div
-          class="col-lg-6 col-md-12 col-sm-12 col-12 text-center pt-5 about-text"
+          class="col-lg-6 col-md-12 col-sm-12 col-12 text-center pt-1 about-text"
         >
           <!-- <br><br><br><br><br><br><h1>PUT A PICTURE OF ME HERE (and remove all the filler br tags). IT WILL ALSO HELP TAKE UP THE STUPID DEAD SPACE UNDER THE ABOUT ME SECTION</h1><br><br><br><br><br><br><br><br><br><br> -->
 
@@ -69,18 +66,14 @@
             <br />
             <h5>
               I recieved my BA from Binghamton University where I majored in
-              English and minored in Education. During this time, I served on
-              the Education Minor Steering Committee, drafting policies for the
-              university.
+              English and minored in Education.
             </h5>
             <br />
             <h5>
               For the past few years, I have worked for the Boys And Girls Clubs
               of Clifton, NJ and Bridesburg, Philadelphia, PA. I started as a
               youth development professional and then became the Athletic
-              Supervisor. In this capacity, I ran the gymnasium, sports leagues,
-              and other summer camp activities and after school events for the
-              kids.
+              Supervisor.
             </h5>
             <br />
             <h5>
@@ -90,6 +83,8 @@
             </h5>
           </div>
 
+          <br><br><br><br><br><h1>. . . . .</h1><br><br><br>
+
           <h1 id="ContactMe" class="mt-5">Contact Me</h1>
 
           <a
@@ -98,15 +93,17 @@
           >
             <button
               type="button"
-              class="btn btn-lg text-light btn-outline-light enter-button mt-4 text-center"
+              class="btn text-light btn-outline-light enter-button mt-4 text-center"
               id="email-button"
               onclick="setTimeout(emailFunction, 1)"
               data-toggle="modal"
               data-target="#exampleModal"
             >
-              Send me an email @mesibovjordan@gmail.com
+              Send me an email
             </button>
-          </a>
+        </a>
+        <br><br>
+        <p class="text-light">(mesibovjordan@gmail.com)</p>
 
           <div
             class="modal fade text-light"
@@ -133,7 +130,7 @@
                 </div>
                 <div class="modal-body">
                   <p>
-                    If you did, I'll get back to you as soon as I can. Have a
+                    If you did send me an email, I'll get back to you as soon as I can. Have a
                     great day!
                   </p>
                 </div>
@@ -149,8 +146,12 @@
               </div>
             </div>
           </div>
-          <br><br><br>
+          <br><br>
           <p id="phone-number">Phone: 908-616-1431</p>
+
+          <!-- I MUST CREATE FILLER CONTENT HERE SO THAT THE SITE LOOKS GOOD ON FULLSCREEN -->
+
+          <br><br><br><h1>. . . . .</h1><br><br>
 
         </div>
         <div class="col-lg-6 col-md-12 col-sm-12 col-12 text-center pt-5">
@@ -160,7 +161,7 @@
 
           <div class="container-fluid projects">
             <div class="row">
-              <div class="col-12">
+              <div class="col-12 col-6-md mx-auto px-0">
                 <div class="card project-card my-2">
                   <a href="http://radburnliquors.com" target="_blank"
                     ><img
@@ -188,42 +189,43 @@
                   </div>
                 </div>
               </div>
-
-              <div class="col-12">
-                <div class="card project-card mb-2">
-                  <a
-                    href="https://jasonsmacias.github.io/Central-Jersey-Sci-Fi-Fantasy-Book-and-Movie-Club/"
-                    target="_blank"
-                    ><img
-                      class="card-img-top"
-                      src="./assets/images/BookClubPic.PNG"
-                      alt="CNJ SF BMC Website"
-                  /></a>
-                  <div class="card-body">
-                    <h3 class="card-text">
-                      Central NJ Sci-Fi/Fantasy Book/Movie Club
-                    </h3>
-                    <p class="card-text">
-                      The official website of the Central Jersey Sci-Fi/Fantasy
-                      Book and Movie Club, boasting over 400 members. Here,
-                      members can check out previews and critical reviews of
-                      books they will read, as well as suggest reads and vote on
-                      upcoming books. The site leverages two APIs - GoogleBooks
-                      and iDreamBooks.
-                    </p>
-                    <button
-                      type="button"
-                      class="btn btn-outline-dark enter-button"
-                    >
-                      <a
-                        href="https://jasonsmacias.github.io/Central-Jersey-Sci-Fi-Fantasy-Book-and-Movie-Club/"
-                        target="_blank"
-                        >Visit Site</a
+            <div class="row">
+                <div class="col-12 col-6-md mx-auto">
+                  <div class="card project-card mb-2">
+                    <a
+                      href="https://jasonsmacias.github.io/Central-Jersey-Sci-Fi-Fantasy-Book-and-Movie-Club/"
+                      target="_blank"
+                      ><img
+                        class="card-img-top"
+                        src="./assets/images/BookClubPic.PNG"
+                        alt="CNJ SF BMC Website"
+                    /></a>
+                    <div class="card-body">
+                      <h3 class="card-text">
+                        Central NJ Sci-Fi/Fantasy Book/Movie Club
+                      </h3>
+                      <p class="card-text">
+                        The official website of the Central Jersey Sci-Fi/Fantasy
+                        Book and Movie Club, boasting over 400 members. Here,
+                        members can check out previews and critical reviews of
+                        books they will read, as well as suggest reads and vote on
+                        upcoming books. The site leverages two APIs - GoogleBooks
+                        and iDreamBooks.
+                      </p>
+                      <button
+                        type="button"
+                        class="btn btn-outline-dark enter-button"
                       >
-                    </button>
+                        <a
+                          href="https://jasonsmacias.github.io/Central-Jersey-Sci-Fi-Fantasy-Book-and-Movie-Club/"
+                          target="_blank"
+                          >Visit Site</a
+                        >
+                      </button>
+                    </div>
                   </div>
                 </div>
-              </div>
+            </div>
             </div>
           </div>
         </div>

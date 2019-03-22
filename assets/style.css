@@ -48,7 +48,7 @@
     background-repeat: no-repeat;
     background-position: center;
     /* font-family: 'Cagliostro', sans-serif; */
-    font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'ZCOOL XiaoWei', serif;
     /* color: rgb(231, 120, 153); */
     color: #fff;
     /* background-attachment: fixed; */
@@ -57,11 +57,11 @@
 }
 
 .project-card {
-    width: 98%;
-    
+    /* width: 98%; */
+   
     color: #050407;
     margin: 0 auto;
-    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgb(21, 177, 169) 0%, rgb(116, 98, 218) 90% );
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgb(153, 127, 184) 0%, rgb(141, 126, 223) 90% );
 
     /* box-shadow: 0 10px 20px rgba(31, 25, 25, 0.19), 0 6px 6px rgba(51, 41, 41, 0.23); */
 }
@@ -76,7 +76,7 @@ a:hover {
 }
 
 #profile-pic {
-    max-height: 500px;
+    max-height: 300px;
     margin-top: 25px;
     border-style: solid;
     border-radius: 3px;
@@ -95,6 +95,10 @@ a:hover {
 #phone-number {
     font-size: 25px;
 }
+
+/* h5 {
+    font-size: 14px;
+} */
 
 /* .email-card {
     color: black;
@@ -137,4 +141,9 @@ a:hover {
     #phone-number {
         font-size: 18px;
     }
+
+    /* #email-button {
+        font-size: 10px;
+        max-width: 175px;
+    } */
 }
