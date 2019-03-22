@@ -98,6 +98,18 @@ a:hover {
     font-size: 25px;
 }
 
+.contact-me-div {
+    border-style: solid;
+    border-radius: 3px;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgb(153, 127, 184) 0%, rgb(141, 126, 223) 90% );
+    color: black;
+}
+
+.footer {
+    background-color: black;
+    /* height: 100px; */
+}
+
 /* h5 {
     font-size: 14px;
 } */
